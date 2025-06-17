@@ -1,0 +1,154 @@
+.content-space{
+    width: calc(100% - 100px);
+    height: 100%;
+    background: linear-gradient(180deg, #081734, #0d1628 73px, #0e1420 168px, #0f1014 256px, #0f1014);
+  }
+  .space-bg{
+    height: 100%;
+    background-image: url(assets/stars.9c90b28001575d3d107b.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 100vh;
+  }
+  .space-img{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .space-img img{
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .space-img h2{
+    font-size: 28px;
+    color: #e1e6f0;
+    font-weight: 600;
+  }
+  .space-img p{
+    color: #8f98b2;
+  }
+  .space-img button{
+    width: 250px;
+    background: linear-gradient(93.87deg,#095ae6,#062794);
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+  .space-img button a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #d1e8ff;
+  }
+  .space-btn a{
+    transition: all .3s ease-in-out;
+    transition-property: transform, background-color;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #16181f;
+    color: white;
+    border-radius: 5px;
+    width: 900px;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 50px;
+    color: #8f98b2;
+    text-decoration: none;
+  }
+  .popup h2,.pop-para{
+    text-align: center;
+  }
+  .login{
+    display: flex;
+  }
+  .code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .phone{
+    text-align: center;
+    /* padding-left: 150px; */
+    padding-left: 80px;
+  }
+  input[type=tel]{
+    width: 70px;
+    border: 1px solid #8f98b2;
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .phone .number{
+    width: 200px;
+    border: 1px solid #8f98b2;
+    background: transparent;
+    padding: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+  }
+  .popup h2{
+    color: #e1e6f0;
+    font-size: 28px;
+  }
+  .popup p{
+    color: #8f98b2;
+  }
+  svg{
+    border-radius: 18px;
+    margin-bottom: 10px;
+  }
+  .code h3{
+    color: #e1e6f0;
+    font-size: 20px;
+  }
+  input[placeholder]{
+    color: #e1e6f0;
+  }
+  .vl{
+    /* border-left: 1px solid; */
+    height: 100px;
+    width: 1px;
+    margin-left: 10px;
+    background: linear-gradient(180deg, rgba(112, 122, 148, 0), #707a94 50%, rgba(112, 122, 148, 0));
+  }
+  .or{
+    padding-left: 100px;
+  }
+  .or .lines span{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #e1e6f0;
+  }

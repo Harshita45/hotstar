@@ -1,0 +1,72 @@
+.opacity{
+    opacity: 0.4;
+}
+ul .opacity:hover{
+    opacity: 1;
+}
+.raya-bg{
+    position: relative;
+    display: inline-block;
+}
+.raya-info{
+    position: absolute;
+    /* top: 30%;
+    left: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 50px;
+}
+.bg-sec{
+    background: linear-gradient(180deg, rgba(15, 16, 20, 0) 73.08%, rgba(15, 16, 20, .01) 77.84%, rgba(15, 16, 20, .05) 79.74%, #0f1014), linear-gradient(90deg, #0f1014, rgba(15, 16, 20, .8) 7.31%, rgba(15, 16, 20, .52) 15.54%, rgba(15, 16, 20, .12) 29.73%, rgba(15, 16, 20, 0) 40.59%);
+    height: 100%;
+    top: 0;
+    left: 0px;
+}
+.raya-info .year{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.raya-info .raya-para{
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+}
+/* .raya-info span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+.more{
+    margin-top: 90px;
+    padding-left: 30px;
+}
+.morelike{
+    display: flex;
+}
+.morelike p{
+    padding-right: 50px;
+    font-size: 22px;
+    color: white;
+}
+.raya-info button{
+    margin-top: 20px;
+}
+.watch{
+    background-color: #e1e6f0;
+    color: black;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+hr{
+  color: #e1e6f0; 
+  margin-bottom: 50px;
+  font-weight: 700;
+}

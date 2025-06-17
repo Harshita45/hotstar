@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <nav
+        class="navbar navbar-expand-sm feedback-sec">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.svg" alt="">
+            </a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#" style="font-size: 18px;">Read in</a>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a
+                            class="nav-link dropdown-toggle li-eng"
+                            href="#"
+                            id="dropdownId"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            style="font-size: 18px;"
+                            >English</a
+                        >
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownId"
+                        >
+                            <a class="dropdown-item" href="#"
+                                >Hindi</a
+                            >
+                            <a class="dropdown-item" href="#"
+                                >Telugu</a
+                            >
+                        </div>
+                    </li>
+                </ul>
+                <form class=" search my-2 my-lg-0">
+                    <i class="bi bi-search"></i>
+                    <input
+                        class="form-control me-sm-2"
+                        type="text"
+                        placeholder="Search queries or error code"/>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="blueline"></div>
+    <div class="box container pt-5">
+        <div class="form-box col-md-6">
+            <h4>Please give us feedback about Disney+ Hotstar</h4>
+            <p>We appreciate feedback. Please use the form below to provide feedback on content and/or your experience using Disney+ Hotstar. If you are having trouble watching Disney+ Hotstar, please reach out to us through one of our live channels on the Help Center.</p>
+            <div class="input-box">
+                <form>
+                    <label for="box">What would you like to do? <span>*</span></label><br>
+                    <select id="box" name="box" required>
+                        <option></option>
+                        <option>Suggest a new feature</option>
+                        <option>Request a film or show</option>
+                        <option>Tell us if something's not right</option>
+                     </select><br>
+                     <input type="submit">
+                     
+                    <!-- <div class="dropdown">
+                        <button
+                            class="btn btn-form dropdown-toggle"
+                            type="button"
+                            id="triggerId"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="#">Suggest a new feature</a>
+                            <a class="dropdown-item disabled" href="#">Request a film or show</a>
+                        </div>
+                    </div> -->
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
